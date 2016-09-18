@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Asana {
+namespace AspNetCore.Security.OAuth.Asana {
     /// <summary>
     /// Default values used by the Asana authentication middleware.
     /// </summary>

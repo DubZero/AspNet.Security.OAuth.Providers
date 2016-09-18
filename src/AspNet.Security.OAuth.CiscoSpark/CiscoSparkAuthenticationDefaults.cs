@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.CiscoSpark {
+namespace AspNetCore.Security.OAuth.CiscoSpark {
     /// <summary>
     /// Default values used by the Spark authentication middleware.
     /// </summary>

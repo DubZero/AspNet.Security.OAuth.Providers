@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.HealthGraph {
+namespace AspNetCore.Security.OAuth.HealthGraph {
     /// <summary>
     /// Default values used by the HealthGraph authentication middleware.
     /// </summary>

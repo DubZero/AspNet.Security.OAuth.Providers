@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.BattleNet {
+namespace AspNetCore.Security.OAuth.BattleNet {
     public class BattleNetAuthenticationMiddleware : OAuthMiddleware<BattleNetAuthenticationOptions> {
         public BattleNetAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

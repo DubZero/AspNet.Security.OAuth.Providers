@@ -7,7 +7,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Buffer {
+namespace AspNetCore.Security.OAuth.Buffer {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from Buffer after a successful authentication process.

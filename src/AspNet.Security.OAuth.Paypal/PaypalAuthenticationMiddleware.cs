@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Paypal {
+namespace AspNetCore.Security.OAuth.Paypal {
     public class PaypalAuthenticationMiddleware : OAuthMiddleware<PaypalAuthenticationOptions> {
         public PaypalAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Vimeo;
+using AspNetCore.Security.OAuth.Vimeo;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Spotify {
+namespace AspNetCore.Security.OAuth.Spotify {
     /// <summary>
     /// Default values used by the Spotify authentication middleware.
     /// </summary>

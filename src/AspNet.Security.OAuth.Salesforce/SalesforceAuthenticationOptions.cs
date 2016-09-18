@@ -8,7 +8,7 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Salesforce {
+namespace AspNetCore.Security.OAuth.Salesforce {
     /// <summary>
     /// Defines a set of options used by <see cref="SalesforceAuthenticationHandler"/>.
     /// </summary>

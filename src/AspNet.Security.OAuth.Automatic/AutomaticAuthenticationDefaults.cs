@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.Automatic {
+namespace AspNetCore.Security.OAuth.Automatic {
     /// <summary>
     /// Default values used by the Automatic authentication middleware.
     /// </summary>

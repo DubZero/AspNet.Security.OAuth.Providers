@@ -4,7 +4,7 @@
  * for more information concerning the license and the contributors participating to this project.
  */
 
-namespace AspNet.Security.OAuth.Salesforce {
+namespace AspNetCore.Security.OAuth.Salesforce {
     /// <summary>
     /// Defines a list of environments used to determine the appropriate
     /// OAuth2 endpoints when communicating with Salesforce.

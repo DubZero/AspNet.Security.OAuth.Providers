@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Vkontakte {
+namespace AspNetCore.Security.OAuth.Vkontakte {
     /// <summary>
     /// Configuration options for <see cref="VkontakteAuthenticationMiddleware"/>.
     /// </summary>

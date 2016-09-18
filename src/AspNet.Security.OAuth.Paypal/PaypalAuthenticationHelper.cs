@@ -8,7 +8,7 @@ using System.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Paypal {
+namespace AspNetCore.Security.OAuth.Paypal {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from Paypal after a successful authentication process.

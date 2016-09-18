@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Beam {
+namespace AspNetCore.Security.OAuth.Beam {
     /// <summary>
     /// Default values used by the Beam authentication middleware.
     /// </summary>

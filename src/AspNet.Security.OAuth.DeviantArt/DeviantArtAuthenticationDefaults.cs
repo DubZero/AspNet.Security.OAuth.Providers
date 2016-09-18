@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.DeviantArt {
+namespace AspNetCore.Security.OAuth.DeviantArt {
     /// <summary>
     /// Default values used by the DeviantArt authentication middleware.
     /// </summary>

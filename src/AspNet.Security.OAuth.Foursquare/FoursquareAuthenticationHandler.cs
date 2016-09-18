@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Foursquare {
+namespace AspNetCore.Security.OAuth.Foursquare {
     public class FoursquareAuthenticationHandler : OAuthHandler<FoursquareAuthenticationOptions> {
         public FoursquareAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

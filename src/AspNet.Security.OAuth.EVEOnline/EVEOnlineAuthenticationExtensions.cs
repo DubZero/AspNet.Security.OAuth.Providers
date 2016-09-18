@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.EVEOnline;
+using AspNetCore.Security.OAuth.EVEOnline;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

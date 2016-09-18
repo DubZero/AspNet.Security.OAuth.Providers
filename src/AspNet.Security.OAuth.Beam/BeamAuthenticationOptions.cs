@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Beam {
+namespace AspNetCore.Security.OAuth.Beam {
     /// <summary>
     /// Defines a set of options used by <see cref="BeamAuthenticationHandler"/>.
     /// </summary>

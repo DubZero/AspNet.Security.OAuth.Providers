@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.SoundCloud {
+namespace AspNetCore.Security.OAuth.SoundCloud {
     /// <summary>
     /// Defines a set of options used by <see cref="SoundCloudAuthenticationHandler"/>.
     /// </summary>

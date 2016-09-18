@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Asana;
+using AspNetCore.Security.OAuth.Asana;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

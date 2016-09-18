@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.CiscoSpark {
+namespace AspNetCore.Security.OAuth.CiscoSpark {
     public class CiscoSparkAuthenticationMiddleware : OAuthMiddleware<CiscoSparkAuthenticationOptions> {
         public CiscoSparkAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

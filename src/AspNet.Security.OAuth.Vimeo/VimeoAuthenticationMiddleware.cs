@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Vimeo {
+namespace AspNetCore.Security.OAuth.Vimeo {
     public class VimeoAuthenticationMiddleware : OAuthMiddleware<VimeoAuthenticationOptions> {
         public VimeoAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

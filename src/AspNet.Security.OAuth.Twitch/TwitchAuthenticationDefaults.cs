@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Twitch {
+namespace AspNetCore.Security.OAuth.Twitch {
     /// <summary>
     /// Default values used by the Twitch authentication middleware.
     /// </summary>

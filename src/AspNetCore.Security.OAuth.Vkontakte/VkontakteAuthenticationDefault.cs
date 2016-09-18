@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.Vkontakte {
+namespace AspNetCore.Security.OAuth.Vkontakte {
     /// <summary>
     /// Default values used by the Vkontakte authentication middleware.
     /// </summary>

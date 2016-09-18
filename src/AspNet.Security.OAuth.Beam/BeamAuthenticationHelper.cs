@@ -7,7 +7,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Beam {
+namespace AspNetCore.Security.OAuth.Beam {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from Beam after a successful authentication process.

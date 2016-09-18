@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.VisualStudio {
+namespace AspNetCore.Security.OAuth.VisualStudio {
     /// <summary>
     /// Default values used by the Visual Studio authentication middleware.
     /// </summary>

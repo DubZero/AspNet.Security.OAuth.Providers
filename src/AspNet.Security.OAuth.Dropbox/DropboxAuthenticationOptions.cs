@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Dropbox {
+namespace AspNetCore.Security.OAuth.Dropbox {
     /// <summary>
     /// Defines a set of options used by <see cref="DropboxAuthenticationHandler"/>.
     /// </summary>

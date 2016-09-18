@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Myob;
+using AspNetCore.Security.OAuth.Myob;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

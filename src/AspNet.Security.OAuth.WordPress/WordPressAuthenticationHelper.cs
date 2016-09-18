@@ -7,7 +7,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.WordPress {
+namespace AspNetCore.Security.OAuth.WordPress {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from WordPress after a successful authentication process.

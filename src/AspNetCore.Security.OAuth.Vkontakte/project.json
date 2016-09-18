@@ -2,7 +2,7 @@
   "version": "1.0.0-beta2-*",
 
   "description": "ASP.NET Core security middleware enabling Vkontakte authentication.",
-  "authors": [ "Albert Zakiev" ],
+  "authors": [ "Albert Zakiev", "f14shm4n" ],
 
   "packOptions": {
     "owners": [ "Kévin Chalet", "Jerrie Pelser" ],
@@ -32,23 +32,21 @@
   },
 
   "dependencies": {
-    "AspNet.Security.OAuth.Extensions": { "target": "project", "type": "build" },
-    "JetBrains.Annotations": { "type": "build", "version": "10.1.4" },
+    "NETStandard.Library": "1.6.0",
+    "AspNet.Security.OAuth.Extensions": {
+      "target": "project",
+      "type": "build"
+    },
+    "JetBrains.Annotations": {
+      "type": "build",
+      "version": "10.1.4"
+    },
     "Microsoft.AspNetCore.Authentication.OAuth": "1.0.0"
   },
 
   "frameworks": {
-    "net451": { },
-
-    "netstandard1.3": {
-      "dependencies": {
-        "System.Dynamic.Runtime": "4.0.11"
-      },
-
-      "imports": [
-        "dotnet5.4",
-        "portable-net451+win8"
-      ]
+    "netstandard1.6": {
+      "imports": "dnxcore50"
     }
   }
 }

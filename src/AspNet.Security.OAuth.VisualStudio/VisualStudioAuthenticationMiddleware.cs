@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using JetBrains.Annotations;
 
-namespace AspNet.Security.OAuth.VisualStudio {
+namespace AspNetCore.Security.OAuth.VisualStudio {
     public class VisualStudioAuthenticationMiddleware : OAuthMiddleware<VisualStudioAuthenticationOptions> {
         public VisualStudioAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

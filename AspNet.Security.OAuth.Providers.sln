@@ -11,7 +11,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.GitHu
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mvc.Client", "samples\Mvc.Client\Mvc.Client.xproj", "{68631868-902A-46FB-9A44-BACF1812FBDE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Extensions", "src\AspNet.Security.OAuth.Extensions\AspNet.Security.OAuth.Extensions.xproj", "{FE52A431-57AD-45FA-AA59-C63CB6EA3F31}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.Security.OAuth.Extensions", "src\AspNet.Security.OAuth.Extensions\AspNetCore.Security.OAuth.Extensions.xproj", "{FE52A431-57AD-45FA-AA59-C63CB6EA3F31}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.LinkedIn", "src\AspNet.Security.OAuth.LinkedIn\AspNet.Security.OAuth.LinkedIn.xproj", "{0351689C-EAB7-42D0-966F-4021B89EF553}"
 EndProject
@@ -63,7 +63,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Sales
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Gitter", "src\AspNet.Security.OAuth.Gitter\AspNet.Security.OAuth.Gitter.xproj", "{EDD1BA76-D656-4513-BC65-FEC688CBB9F8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Vkontakte", "src\AspNet.Security.OAuth.Vkontakte\AspNet.Security.OAuth.Vkontakte.xproj", "{B332222F-43B4-4B3E-8EB3-9BCE29901043}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.Security.OAuth.Vkontakte", "src\AspNetCore.Security.OAuth.Vkontakte\AspNetCore.Security.OAuth.Vkontakte.xproj", "{B332222F-43B4-4B3E-8EB3-9BCE29901043}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Automatic", "src\AspNet.Security.OAuth.Automatic\AspNet.Security.OAuth.Automatic.xproj", "{DD97337C-37C6-4F0E-A392-2DAD59246616}"
 EndProject

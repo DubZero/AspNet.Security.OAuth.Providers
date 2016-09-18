@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Asana {
+namespace AspNetCore.Security.OAuth.Asana {
     /// <summary>
     /// Defines a set of options used by <see cref="AsanaAuthenticationHandler"/>.
     /// </summary>

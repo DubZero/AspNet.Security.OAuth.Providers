@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Asana {
+namespace AspNetCore.Security.OAuth.Asana {
     public class AsanaAuthenticationMiddleware : OAuthMiddleware<AsanaAuthenticationOptions> {
         public AsanaAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

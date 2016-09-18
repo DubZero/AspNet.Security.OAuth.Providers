@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Instagram {
+namespace AspNetCore.Security.OAuth.Instagram {
     /// <summary>
     /// Default values used by the Instagram authentication middleware.
     /// </summary>

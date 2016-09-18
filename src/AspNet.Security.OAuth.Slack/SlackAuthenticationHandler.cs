@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Slack {
+namespace AspNetCore.Security.OAuth.Slack {
     public class SlackAuthenticationHandler : OAuthHandler<SlackAuthenticationOptions> {
         public SlackAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

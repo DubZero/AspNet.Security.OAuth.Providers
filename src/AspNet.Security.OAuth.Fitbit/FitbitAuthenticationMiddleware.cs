@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Fitbit {
+namespace AspNetCore.Security.OAuth.Fitbit {
     public class FitbitAuthenticationMiddleware : OAuthMiddleware<FitbitAuthenticationOptions> {
         public FitbitAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using System;
 
-namespace AspNet.Security.OAuth.EVEOnline {
+namespace AspNetCore.Security.OAuth.EVEOnline {
     /// <summary>
     /// Defines a set of options used by <see cref="EVEOnlineAuthenticationHandler"/>.
     /// </summary>

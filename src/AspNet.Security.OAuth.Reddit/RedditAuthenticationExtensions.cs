@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Reddit;
+using AspNetCore.Security.OAuth.Reddit;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Foursquare {
+namespace AspNetCore.Security.OAuth.Foursquare {
     /// <summary>
     /// Default values used by the Foursquare authentication middleware.
     /// </summary>

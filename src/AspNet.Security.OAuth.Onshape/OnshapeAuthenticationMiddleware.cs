@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Onshape {
+namespace AspNetCore.Security.OAuth.Onshape {
     public class OnshapeAuthenticationMiddleware : OAuthMiddleware<OnshapeAuthenticationOptions> {
         public OnshapeAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

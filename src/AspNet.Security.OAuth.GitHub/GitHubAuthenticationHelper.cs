@@ -8,7 +8,7 @@ using System.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.GitHub {
+namespace AspNetCore.Security.OAuth.GitHub {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from GitHub after a successful authentication process.

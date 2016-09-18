@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Imgur {
+namespace AspNetCore.Security.OAuth.Imgur {
     /// <summary>
     /// Defines a set of options used by <see cref="ImgurAuthenticationHandler"/>.
     /// </summary>

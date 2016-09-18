@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Fitbit;
+using AspNetCore.Security.OAuth.Fitbit;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

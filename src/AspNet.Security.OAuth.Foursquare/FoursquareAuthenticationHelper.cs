@@ -7,7 +7,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Foursquare {
+namespace AspNetCore.Security.OAuth.Foursquare {
     /// <summary>
     /// Contains static methods that allow to extract user's information from a <see cref="JObject"/>
     /// instance retrieved from Foursquare after a successful authentication process.

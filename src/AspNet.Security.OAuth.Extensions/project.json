@@ -32,18 +32,14 @@
 
   "shared": "*.cs",
 
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+
   "frameworks": {
-    "net451": { },
-
-    "netstandard1.3": {
-      "dependencies": {
-        "System.Security.Claims": "4.0.1"
-      },
-
-      "imports": [
-        "dotnet5.4",
-        "portable-net451+win8"
-      ]
+    "netstandard1.6": {
+      "imports": "dnxcore50"
     }
   }
 }

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Yahoo {
+namespace AspNetCore.Security.OAuth.Yahoo {
     public class YahooAuthenticationMiddleware : OAuthMiddleware<YahooAuthenticationOptions> {
         public YahooAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

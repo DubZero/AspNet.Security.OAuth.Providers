@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Instagram {
+namespace AspNetCore.Security.OAuth.Instagram {
     public class InstagramAuthenticationMiddleware : OAuthMiddleware<InstagramAuthenticationOptions> {
         public InstagramAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

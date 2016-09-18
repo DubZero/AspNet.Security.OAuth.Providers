@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.EVEOnline {
+namespace AspNetCore.Security.OAuth.EVEOnline {
     public class EVEOnlineAuthenticationMiddleware : OAuthMiddleware<EVEOnlineAuthenticationOptions> {
         public EVEOnlineAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

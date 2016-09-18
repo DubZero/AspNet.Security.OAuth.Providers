@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.LinkedIn {
+namespace AspNetCore.Security.OAuth.LinkedIn {
     public class LinkedInAuthenticationMiddleware : OAuthMiddleware<LinkedInAuthenticationOptions> {
         public LinkedInAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

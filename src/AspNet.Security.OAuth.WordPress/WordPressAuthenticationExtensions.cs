@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.WordPress;
+using AspNetCore.Security.OAuth.WordPress;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.WordPress {
+namespace AspNetCore.Security.OAuth.WordPress {
     public class WordPressAuthenticationMiddleware : OAuthMiddleware<WordPressAuthenticationOptions> {
         public WordPressAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

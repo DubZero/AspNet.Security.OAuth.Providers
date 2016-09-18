@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.GitHub {
+namespace AspNetCore.Security.OAuth.GitHub {
     /// <summary>
     /// Default values used by the GitHub authentication middleware.
     /// </summary>

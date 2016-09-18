@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.GitHub;
+using AspNetCore.Security.OAuth.GitHub;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

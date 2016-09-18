@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Onshape {
+namespace AspNetCore.Security.OAuth.Onshape {
     /// <summary>
     /// Defines a set of options used by <see cref="OnshapeAuthenticationHandler"/>.
     /// </summary>

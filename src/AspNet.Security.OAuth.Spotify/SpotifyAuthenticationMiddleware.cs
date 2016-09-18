@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Spotify {
+namespace AspNetCore.Security.OAuth.Spotify {
     public class SpotifyAuthenticationMiddleware : OAuthMiddleware<SpotifyAuthenticationOptions> {
         public SpotifyAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

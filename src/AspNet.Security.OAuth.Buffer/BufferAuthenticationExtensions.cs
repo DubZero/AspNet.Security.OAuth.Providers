@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Buffer;
+using AspNetCore.Security.OAuth.Buffer;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

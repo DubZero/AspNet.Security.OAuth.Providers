@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Fitbit {
+namespace AspNetCore.Security.OAuth.Fitbit {
     /// <summary>
     /// Defines a set of options used by <see cref="FitbitAuthenticationHandler"/>.
     /// </summary>

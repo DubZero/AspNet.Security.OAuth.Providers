@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.WordPress {
+namespace AspNetCore.Security.OAuth.WordPress {
     /// <summary>
     /// Defines a set of options used by <see cref="WordPressAuthenticationHandler"/>.
     /// </summary>

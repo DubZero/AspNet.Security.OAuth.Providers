@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Slack {
+namespace AspNetCore.Security.OAuth.Slack {
     public class SlackAuthenticationMiddleware : OAuthMiddleware<SlackAuthenticationOptions> {
         public SlackAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

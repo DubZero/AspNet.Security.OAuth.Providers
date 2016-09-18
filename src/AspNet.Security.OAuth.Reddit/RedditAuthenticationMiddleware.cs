@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Reddit {
+namespace AspNetCore.Security.OAuth.Reddit {
     public class RedditAuthenticationMiddleware : OAuthMiddleware<RedditAuthenticationOptions> {
         public RedditAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

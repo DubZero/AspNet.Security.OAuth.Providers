@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Vkontakte;
+using AspNetCore.Security.OAuth.Vkontakte;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

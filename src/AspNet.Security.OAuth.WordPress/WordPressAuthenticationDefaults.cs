@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.WordPress {
+namespace AspNetCore.Security.OAuth.WordPress {
     /// <summary>
     /// Default values used by the WordPress authentication middleware.
     /// </summary>

@@ -8,7 +8,7 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.BattleNet {
+namespace AspNetCore.Security.OAuth.BattleNet {
     /// <summary>
     /// Defines a set of options used by <see cref="BattleNetAuthenticationHandler"/>.
     /// </summary>

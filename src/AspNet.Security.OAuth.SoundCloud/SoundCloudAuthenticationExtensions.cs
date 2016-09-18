@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.SoundCloud;
+using AspNetCore.Security.OAuth.SoundCloud;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

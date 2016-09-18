@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.EVEOnline {
+namespace AspNetCore.Security.OAuth.EVEOnline {
     /// <summary>
     /// Default values used by the EVEOnline authentication middleware.
     /// </summary>

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Foursquare {
+namespace AspNetCore.Security.OAuth.Foursquare {
     public class FoursquareAuthenticationMiddleware : OAuthMiddleware<FoursquareAuthenticationOptions> {
         public FoursquareAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

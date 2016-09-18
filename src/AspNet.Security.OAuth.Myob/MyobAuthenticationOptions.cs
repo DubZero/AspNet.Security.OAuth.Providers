@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Myob {
+namespace AspNetCore.Security.OAuth.Myob {
     /// <summary>
     /// Defines a set of options used by <see cref="MyobAuthenticationHandler"/>.
     /// </summary>

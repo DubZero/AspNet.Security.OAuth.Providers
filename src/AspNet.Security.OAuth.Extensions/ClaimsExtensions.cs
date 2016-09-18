@@ -7,7 +7,7 @@
 using System;
 using System.Security.Claims;
 
-namespace AspNet.Security.OAuth.Extensions {
+namespace AspNetCore.Security.OAuth.Extensions {
     public static class ClaimsExtensions {
         public static ClaimsIdentity AddOptionalClaim(this ClaimsIdentity identity, string type, string value, string issuer) {
             if (identity == null) {

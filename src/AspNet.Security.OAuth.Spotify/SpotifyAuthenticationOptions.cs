@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Spotify {
+namespace AspNetCore.Security.OAuth.Spotify {
     /// <summary>
     /// Defines a set of options used by <see cref="SpotifyAuthenticationHandler"/>.
     /// </summary>

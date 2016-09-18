@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Instagram;
+using AspNetCore.Security.OAuth.Instagram;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

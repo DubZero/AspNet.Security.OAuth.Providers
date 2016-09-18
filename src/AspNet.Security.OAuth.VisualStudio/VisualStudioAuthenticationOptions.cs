@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.VisualStudio {
+namespace AspNetCore.Security.OAuth.VisualStudio {
     /// <summary>
     /// Defines a set of options used by <see cref="VisualStudioAuthenticationHandler"/>.
     /// </summary>

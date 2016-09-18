@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Vimeo {
+namespace AspNetCore.Security.OAuth.Vimeo {
     /// <summary>
     /// Defines a set of options used by <see cref="VimeoAuthenticationHandler"/>.
     /// </summary>

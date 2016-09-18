@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.Myob {
+namespace AspNetCore.Security.OAuth.Myob {
     /// <summary>
     /// Default values used by the Myob authentication middleware.
     /// </summary>

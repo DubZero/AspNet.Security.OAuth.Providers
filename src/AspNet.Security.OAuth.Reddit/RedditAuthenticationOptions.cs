@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Reddit {
+namespace AspNetCore.Security.OAuth.Reddit {
     /// <summary>
     /// Defines a set of options used by <see cref="RedditAuthenticationHandler"/>.
     /// </summary>

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Gitter {
+namespace AspNetCore.Security.OAuth.Gitter {
     public class GitterAuthenticationMiddleware : OAuthMiddleware<GitterAuthenticationOptions> {
         public GitterAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

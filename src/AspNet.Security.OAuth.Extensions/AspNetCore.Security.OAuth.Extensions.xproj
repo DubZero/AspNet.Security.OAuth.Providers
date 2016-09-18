@@ -6,8 +6,8 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>b332222f-43b4-4b3e-8eb3-9bce29901043</ProjectGuid>
-	<RootNamespace>AspNet.Security.OAuth.Vkontakte</RootNamespace>
+    <ProjectGuid>fe52a431-57ad-45fa-aa59-c63cb6ea3f31</ProjectGuid>
+    <RootNamespace>AspNetCore.Security.OAuth.Extensions</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
   </PropertyGroup>

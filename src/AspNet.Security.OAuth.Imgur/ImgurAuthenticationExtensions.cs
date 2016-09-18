@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Imgur;
+using AspNetCore.Security.OAuth.Imgur;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

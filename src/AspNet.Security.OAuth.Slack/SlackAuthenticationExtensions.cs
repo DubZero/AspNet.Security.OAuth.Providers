@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Slack;
+using AspNetCore.Security.OAuth.Slack;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

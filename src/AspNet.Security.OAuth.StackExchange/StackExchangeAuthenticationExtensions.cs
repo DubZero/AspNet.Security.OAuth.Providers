@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.StackExchange;
+using AspNetCore.Security.OAuth.StackExchange;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

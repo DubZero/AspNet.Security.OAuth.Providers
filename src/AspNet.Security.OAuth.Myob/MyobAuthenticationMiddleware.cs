@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using JetBrains.Annotations;
 
-namespace AspNet.Security.OAuth.Myob {
+namespace AspNetCore.Security.OAuth.Myob {
     public class MyobAuthenticationMiddleware : OAuthMiddleware<MyobAuthenticationOptions> {
         public MyobAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Salesforce;
+using AspNetCore.Security.OAuth.Salesforce;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

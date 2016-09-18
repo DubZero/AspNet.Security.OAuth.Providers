@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.LinkedIn {
+namespace AspNetCore.Security.OAuth.LinkedIn {
     /// <summary>
     /// Defines a set of options used by <see cref="LinkedInAuthenticationHandler"/>.
     /// </summary>

@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.HealthGraph;
+using AspNetCore.Security.OAuth.HealthGraph;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

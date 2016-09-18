@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.SoundCloud {
+namespace AspNetCore.Security.OAuth.SoundCloud {
     public class SoundCloudAuthenticationMiddleware : OAuthMiddleware<SoundCloudAuthenticationOptions> {
         public SoundCloudAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

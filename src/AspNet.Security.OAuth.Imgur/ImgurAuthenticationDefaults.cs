@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Imgur {
+namespace AspNetCore.Security.OAuth.Imgur {
     /// <summary>
     /// Default values used by the Imgur authentication middleware.
     /// </summary>

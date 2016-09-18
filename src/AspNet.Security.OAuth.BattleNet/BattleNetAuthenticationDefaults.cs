@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.BattleNet {
+namespace AspNetCore.Security.OAuth.BattleNet {
     /// <summary>
     /// Default values used by the Battle.net authentication middleware.
     /// </summary>

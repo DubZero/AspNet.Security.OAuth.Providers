@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Automatic {
+namespace AspNetCore.Security.OAuth.Automatic {
     public class AutomaticAuthenticationMiddleware : OAuthMiddleware<AutomaticAuthenticationOptions> {
         public AutomaticAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

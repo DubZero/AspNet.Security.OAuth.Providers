@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Instagram {
+namespace AspNetCore.Security.OAuth.Instagram {
     /// <summary>
     /// Defines a set of options used by <see cref="InstagramAuthenticationHandler"/>.
     /// </summary>

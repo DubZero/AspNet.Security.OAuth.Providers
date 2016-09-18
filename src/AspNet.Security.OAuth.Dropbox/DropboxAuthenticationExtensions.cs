@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Dropbox;
+using AspNetCore.Security.OAuth.Dropbox;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

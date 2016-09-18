@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Vimeo {
+namespace AspNetCore.Security.OAuth.Vimeo {
     /// <summary>
     /// Default values used by the Vimeo authentication middleware.
     /// </summary>

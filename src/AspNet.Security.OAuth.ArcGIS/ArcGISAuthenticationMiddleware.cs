@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.ArcGIS {
+namespace AspNetCore.Security.OAuth.ArcGIS {
     public class ArcGISAuthenticationMiddleware : OAuthMiddleware<ArcGISAuthenticationOptions> {
         public ArcGISAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

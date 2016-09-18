@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.HealthGraph {
+namespace AspNetCore.Security.OAuth.HealthGraph {
     public class HealthGraphAuthenticationMiddleware : OAuthMiddleware<HealthGraphAuthenticationOptions> {
         public HealthGraphAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

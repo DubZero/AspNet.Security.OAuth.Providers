@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Buffer {
+namespace AspNetCore.Security.OAuth.Buffer {
     public class BufferAuthenticationMiddleware : OAuthMiddleware<BufferAuthenticationOptions> {
         public BufferAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

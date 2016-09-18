@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Spotify;
+using AspNetCore.Security.OAuth.Spotify;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

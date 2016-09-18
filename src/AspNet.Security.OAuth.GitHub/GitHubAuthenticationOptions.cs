@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.GitHub {
+namespace AspNetCore.Security.OAuth.GitHub {
     /// <summary>
     /// Defines a set of options used by <see cref="GitHubAuthenticationHandler"/>.
     /// </summary>

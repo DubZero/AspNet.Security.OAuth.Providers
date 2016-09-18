@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Reddit {
+namespace AspNetCore.Security.OAuth.Reddit {
     /// <summary>
     /// Default values used by the Reddit authentication middleware.
     /// </summary>

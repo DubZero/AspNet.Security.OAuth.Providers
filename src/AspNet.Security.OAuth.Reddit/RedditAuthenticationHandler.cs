@@ -11,7 +11,7 @@ using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
@@ -20,7 +20,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Reddit {
+namespace AspNetCore.Security.OAuth.Reddit {
     public class RedditAuthenticationHandler : OAuthHandler<RedditAuthenticationOptions> {
         public RedditAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

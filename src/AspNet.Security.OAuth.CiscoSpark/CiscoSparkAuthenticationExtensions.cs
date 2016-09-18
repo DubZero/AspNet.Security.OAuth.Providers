@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.CiscoSpark;
+using AspNetCore.Security.OAuth.CiscoSpark;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

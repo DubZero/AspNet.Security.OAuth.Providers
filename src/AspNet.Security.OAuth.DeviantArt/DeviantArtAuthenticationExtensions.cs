@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.DeviantArt;
+using AspNetCore.Security.OAuth.DeviantArt;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Gitter;
+using AspNetCore.Security.OAuth.Gitter;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

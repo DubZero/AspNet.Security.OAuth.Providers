@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Dropbox {
+namespace AspNetCore.Security.OAuth.Dropbox {
     /// <summary>
     /// Default values used by the Dropbox authentication middleware.
     /// </summary>

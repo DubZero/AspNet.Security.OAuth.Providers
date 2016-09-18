@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.Gitter {
+namespace AspNetCore.Security.OAuth.Gitter {
     /// <summary>
     /// Default values used by the Gitter authentication middleware.
     /// </summary>

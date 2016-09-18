@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.DeviantArt {
+namespace AspNetCore.Security.OAuth.DeviantArt {
     /// <summary>
     /// Defines a set of options used by <see cref="DeviantArtAuthenticationHandler"/>.
     /// </summary>

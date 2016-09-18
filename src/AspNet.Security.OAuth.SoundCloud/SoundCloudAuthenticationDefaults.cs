@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.SoundCloud {
+namespace AspNetCore.Security.OAuth.SoundCloud {
     /// <summary>
     /// Default values used by the SoundCloud authentication middleware.
     /// </summary>

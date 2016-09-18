@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Beam;
+using AspNetCore.Security.OAuth.Beam;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

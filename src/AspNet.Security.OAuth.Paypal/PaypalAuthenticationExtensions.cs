@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Paypal;
+using AspNetCore.Security.OAuth.Paypal;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

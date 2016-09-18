@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.ArcGIS;
+using AspNetCore.Security.OAuth.ArcGIS;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

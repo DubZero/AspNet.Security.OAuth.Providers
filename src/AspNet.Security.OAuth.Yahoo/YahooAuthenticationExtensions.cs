@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Yahoo;
+using AspNetCore.Security.OAuth.Yahoo;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.GitHub {
+namespace AspNetCore.Security.OAuth.GitHub {
     public class GitHubAuthenticationMiddleware : OAuthMiddleware<GitHubAuthenticationOptions> {
         public GitHubAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

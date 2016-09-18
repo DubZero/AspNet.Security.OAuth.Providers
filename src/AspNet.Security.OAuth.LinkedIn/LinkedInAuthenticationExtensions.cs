@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.LinkedIn;
+using AspNetCore.Security.OAuth.LinkedIn;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

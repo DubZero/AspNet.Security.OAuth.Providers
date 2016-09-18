@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
@@ -19,7 +19,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.StackExchange {
+namespace AspNetCore.Security.OAuth.StackExchange {
     public class StackExchangeAuthenticationHandler : OAuthHandler<StackExchangeAuthenticationOptions> {
         public StackExchangeAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Vkontakte {
+namespace AspNetCore.Security.OAuth.Vkontakte {
     public class VkontakteAuthenticationMiddleware : OAuthMiddleware<VkontakteAuthenticationOptions> {
         public VkontakteAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

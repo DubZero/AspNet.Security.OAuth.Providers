@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Foursquare;
+using AspNetCore.Security.OAuth.Foursquare;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

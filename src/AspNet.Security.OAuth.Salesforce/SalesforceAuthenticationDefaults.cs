@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Salesforce {
+namespace AspNetCore.Security.OAuth.Salesforce {
     /// <summary>
     /// Default values used by the Salesforce authentication middleware.
     /// </summary>

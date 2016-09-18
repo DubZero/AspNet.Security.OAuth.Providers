@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.AspNetCore.Http.Authentication;
@@ -16,7 +16,7 @@ using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.Logging;
 
-namespace AspNet.Security.OAuth.Beam {
+namespace AspNetCore.Security.OAuth.Beam {
     public class BeamAuthenticationHandler : OAuthHandler<BeamAuthenticationOptions> {
         public BeamAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

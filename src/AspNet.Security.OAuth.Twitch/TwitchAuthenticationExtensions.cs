@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.Twitch;
+using AspNetCore.Security.OAuth.Twitch;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

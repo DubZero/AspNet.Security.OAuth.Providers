@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.DeviantArt {
+namespace AspNetCore.Security.OAuth.DeviantArt {
     public class DeviantArtAuthenticationMiddleware : OAuthMiddleware<DeviantArtAuthenticationOptions> {
         public DeviantArtAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

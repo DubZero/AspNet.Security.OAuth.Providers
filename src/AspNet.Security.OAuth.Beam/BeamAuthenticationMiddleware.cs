@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Beam {
+namespace AspNetCore.Security.OAuth.Beam {
     public class BeamAuthenticationMiddleware : OAuthMiddleware<BeamAuthenticationOptions> {
         public BeamAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

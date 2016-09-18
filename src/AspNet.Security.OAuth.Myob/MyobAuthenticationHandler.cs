@@ -7,14 +7,14 @@
 using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.AspNetCore.Http.Authentication;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Myob {
+namespace AspNetCore.Security.OAuth.Myob {
     public class MyobAuthenticationHandler : OAuthHandler<MyobAuthenticationOptions> {
         public MyobAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

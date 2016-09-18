@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Onshape {
+namespace AspNetCore.Security.OAuth.Onshape {
     /// <summary>
     /// Default values used by the Onshape authentication middleware.
     /// </summary>

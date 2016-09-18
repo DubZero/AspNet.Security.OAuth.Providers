@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Yahoo {
+namespace AspNetCore.Security.OAuth.Yahoo {
     /// <summary>
     /// Default values used by the Yahoo authentication middleware.
     /// </summary>

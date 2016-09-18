@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.Buffer {
+namespace AspNetCore.Security.OAuth.Buffer {
     /// <summary>
     /// Default values used by the Buffer authentication middleware.
     /// </summary>

@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Automatic {
+namespace AspNetCore.Security.OAuth.Automatic {
     /// <summary>
     /// Defines a set of options used by <see cref="AutomaticAuthenticationHandler"/>.
     /// </summary>

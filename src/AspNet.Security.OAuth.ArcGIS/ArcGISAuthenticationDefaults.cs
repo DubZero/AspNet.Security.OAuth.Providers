@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.OAuth;
 
-namespace AspNet.Security.OAuth.ArcGIS {
+namespace AspNetCore.Security.OAuth.ArcGIS {
     /// <summary>
     /// Default values used by the ArcGIS authentication middleware.
     /// </summary>

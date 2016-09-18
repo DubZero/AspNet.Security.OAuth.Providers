@@ -6,7 +6,7 @@
 
 using Microsoft.AspNetCore.Builder;
 
-namespace AspNet.Security.OAuth.StackExchange {
+namespace AspNetCore.Security.OAuth.StackExchange {
     /// <summary>
     /// Default values used by the StackExchange authentication middleware.
     /// </summary>

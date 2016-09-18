@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Dropbox {
+namespace AspNetCore.Security.OAuth.Dropbox {
     public class DropboxAuthenticationMiddleware : OAuthMiddleware<DropboxAuthenticationOptions> {
         public DropboxAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

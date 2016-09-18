@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OAuth.Extensions;
+using AspNetCore.Security.OAuth.Extensions;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OAuth;
@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Http.Authentication;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 
-namespace AspNet.Security.OAuth.Imgur {
+namespace AspNetCore.Security.OAuth.Imgur {
     public class ImgurAuthenticationHandler : OAuthHandler<ImgurAuthenticationOptions> {
         public ImgurAuthenticationHandler([NotNull] HttpClient client)
             : base(client) {

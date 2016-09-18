@@ -1,4 +1,4 @@
-﻿namespace AspNet.Security.OAuth.BattleNet {
+﻿namespace AspNetCore.Security.OAuth.BattleNet {
     /// <summary>
     /// Defines a list of regions used to determine the appropriate
     /// API endpoints when communicating with BattleNet.

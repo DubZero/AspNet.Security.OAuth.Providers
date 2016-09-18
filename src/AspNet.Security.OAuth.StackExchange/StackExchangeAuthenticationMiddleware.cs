@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using JetBrains.Annotations;
 
-namespace AspNet.Security.OAuth.StackExchange {
+namespace AspNetCore.Security.OAuth.StackExchange {
     public class StackExchangeAuthenticationMiddleware : OAuthMiddleware<StackExchangeAuthenticationOptions> {
         public StackExchangeAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

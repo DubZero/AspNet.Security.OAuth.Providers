@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.Twitch {
+namespace AspNetCore.Security.OAuth.Twitch {
     /// <summary>
     /// Defines a set of options used by <see cref="TwitchAuthenticationHandler"/>.
     /// </summary>

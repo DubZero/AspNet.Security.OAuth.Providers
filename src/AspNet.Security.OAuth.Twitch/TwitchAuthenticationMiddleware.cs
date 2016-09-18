@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AspNet.Security.OAuth.Twitch {
+namespace AspNetCore.Security.OAuth.Twitch {
     public class TwitchAuthenticationMiddleware : OAuthMiddleware<TwitchAuthenticationOptions> {
         public TwitchAuthenticationMiddleware(
             [NotNull] RequestDelegate next,

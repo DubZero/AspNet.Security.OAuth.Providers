@@ -5,7 +5,7 @@
  */
 
 using System;
-using AspNet.Security.OAuth.BattleNet;
+using AspNetCore.Security.OAuth.BattleNet;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Options;
 

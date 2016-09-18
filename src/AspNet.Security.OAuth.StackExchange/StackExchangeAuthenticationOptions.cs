@@ -9,7 +9,7 @@ using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNet.Security.OAuth.StackExchange {
+namespace AspNetCore.Security.OAuth.StackExchange {
     /// <summary>
     /// Defines a set of options used by <see cref="StackExchangeAuthenticationHandler"/>.
     /// </summary>
