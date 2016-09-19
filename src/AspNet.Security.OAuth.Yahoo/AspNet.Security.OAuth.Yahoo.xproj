@@ -7,7 +7,7 @@
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>f79e8d15-f296-424c-a50e-ae39eb2c609f</ProjectGuid>
-    <RootNamespace>AspNet.Security.OAuth.Yahoo</RootNamespace>
+    <RootNamespace>AspNetCore.Security.OAuth.Yahoo</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
   </PropertyGroup>

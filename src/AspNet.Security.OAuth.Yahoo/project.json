@@ -32,19 +32,21 @@
   },
 
   "dependencies": {
-    "AspNet.Security.OAuth.Extensions": { "target": "project", "type": "build" },
-    "JetBrains.Annotations": { "type": "build", "version": "10.1.4" },
+    "NETStandard.Library": "1.6.0",
+    "AspNetCore.Security.OAuth.Extensions": {
+      "target": "project",
+      "type": "build"
+    },
+    "JetBrains.Annotations": {
+      "type": "build",
+      "version": "10.1.4"
+    },
     "Microsoft.AspNetCore.Authentication.OAuth": "1.0.0"
   },
 
   "frameworks": {
-    "net451": { },
-
-    "netstandard1.3": {
-      "imports": [
-        "dotnet5.4",
-        "portable-net451+win8"
-      ]
+    "netstandard1.6": {
+      "imports": "dnxcore50"
     }
   }
 }
