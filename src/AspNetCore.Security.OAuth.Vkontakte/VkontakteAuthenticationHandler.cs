@@ -15,22 +15,31 @@ using Microsoft.AspNetCore.Http.Authentication;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
+using System.Net.Http.Headers;
+using System;
 
-namespace AspNetCore.Security.OAuth.Vkontakte {
-    public class VkontakteAuthenticationHandler : OAuthHandler<VkontakteAuthenticationOptions> {
+namespace AspNetCore.Security.OAuth.Vkontakte
+{
+    public class VkontakteAuthenticationHandler : OAuthHandler<VkontakteAuthenticationOptions>
+    {
         public VkontakteAuthenticationHandler(HttpClient client)
-            : base(client) {
+            : base(client)
+        {
         }
 
-        protected override async Task<AuthenticationTicket> CreateTicketAsync([NotNull] ClaimsIdentity identity, [NotNull] AuthenticationProperties properties, [NotNull] OAuthTokenResponse tokens) {
+        protected override async Task<AuthenticationTicket> CreateTicketAsync([NotNull] ClaimsIdentity identity, [NotNull] AuthenticationProperties properties, [NotNull] OAuthTokenResponse tokens)
+        {
             var address = QueryHelpers.AddQueryString(Options.UserInformationEndpoint, "access_token", tokens.AccessToken);
 
-            if (Options.Fields.Count != 0) {
+            if (Options.Fields.Count != 0)
+            {
                 address = QueryHelpers.AddQueryString(address, "fields", string.Join(",", Options.Fields));
             }
 
             var response = await Backchannel.GetAsync(address, Context.RequestAborted);
-            if (!response.IsSuccessStatusCode) {
+            if (!response.IsSuccessStatusCode)
+            {
                 Logger.LogError("An error occurred when retrieving the user profile: the remote server " +
                                 "returned a {Status} response with the following payload: {Headers} {Body}.",
                                 /* Status: */ response.StatusCode,
@@ -41,7 +50,7 @@ namespace AspNetCore.Security.OAuth.Vkontakte {
             }
 
             var payload = JObject.Parse(await response.Content.ReadAsStringAsync());
-            var user = (JObject) payload["response"][0];
+            var user = (JObject)payload["response"][0];
 
             var ticket = new AuthenticationTicket(new ClaimsPrincipal(identity), properties, Options.AuthenticationScheme);
             var context = new OAuthCreatingTicketContext(ticket, Context, Options, Backchannel, tokens, user);
@@ -51,6 +60,12 @@ namespace AspNetCore.Security.OAuth.Vkontakte {
                     .AddOptionalClaim(ClaimTypes.Surname, VkontakteAuthenticationHelper.GetLastName(user), Options.ClaimsIssuer)
                     .AddOptionalClaim(ClaimTypes.Name, VkontakteAuthenticationHelper.GetScreenName(user), Options.ClaimsIssuer)
                     .AddOptionalClaim("urn:vkontakte:link", VkontakteAuthenticationHelper.GetPhoto(user), Options.ClaimsIssuer);
+
+            if (tokens.Response["email"] != null)
+            {
+                string email = tokens.Response["email"].Value<string>();
+                identity.AddOptionalClaim(ClaimTypes.Email, email, Options.ClaimsIssuer);
+            }
 
             await Options.Events.CreatingTicket(context);
 
