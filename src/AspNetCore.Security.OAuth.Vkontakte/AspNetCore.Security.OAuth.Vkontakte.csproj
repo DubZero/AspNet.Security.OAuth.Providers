@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>ASP.NET Core security middleware enabling Vkontakte authentication.</Description>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>Albert Zakiev;f14shm4n</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>AspNetCore.Security.OAuth.Vkontakte</AssemblyName>
+    <PackageId>AspNetCore.Security.OAuth.Vkontakte</PackageId>
+    <PackageTags>aspnetcore;authentication;oauth;security;vkontakte</PackageTags>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/7998081?s=64</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/f14shm4n/AspNet.Security.OAuth.Providers</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.Security.OAuth.Extensions\AspNetCore.Security.OAuth.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="1.0.2" />
+    <PackageReference Include="JetBrains.Annotations" Version="10.1.5" />
+  </ItemGroup>
+
+  <Target Name="PostcompileScript" AfterTargets="Build">
+    <Exec Command="dotnet pack --no-build -c Release" />
+  </Target>
+
+</Project>
