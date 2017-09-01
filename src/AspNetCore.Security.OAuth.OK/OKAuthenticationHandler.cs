@@ -77,15 +77,12 @@ namespace AspNet.Security.OAuth.OK
 
 			identity.AddOptionalClaim(ClaimTypes.NameIdentifier, OKAuthenticationHelper.GetId(payload), Options.ClaimsIssuer)
 					.AddOptionalClaim(ClaimTypes.GivenName, OKAuthenticationHelper.GetFirstName(payload), Options.ClaimsIssuer)
-					.AddOptionalClaim(ClaimTypes.Surname, OKAuthenticationHelper.GetLastName(payload), Options.ClaimsIssuer);
+					.AddOptionalClaim(ClaimTypes.Surname, OKAuthenticationHelper.GetLastName(payload), Options.ClaimsIssuer)
+					.AddOptionalClaim(ClaimTypes.Email, OKAuthenticationHelper.GetEmail(payload), Options.ClaimsIssuer);
+
 			var ticket = new AuthenticationTicket(new ClaimsPrincipal(identity), properties, Options.AuthenticationScheme);
 			var context = new OAuthCreatingTicketContext(ticket, Context, Options, Backchannel, tokens, payload);
 
-			if (tokens.Response["email"] != null)
-			{
-				string email = tokens.Response["email"].Value<string>();
-				identity.AddOptionalClaim(ClaimTypes.Email, email, Options.ClaimsIssuer);
-			}
 
 			await Options.Events.CreatingTicket(context);
 

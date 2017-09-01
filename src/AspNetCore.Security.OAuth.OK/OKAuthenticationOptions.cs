@@ -30,6 +30,7 @@ namespace AspNet.Security.OAuth.OK
 		/// </summary>
 		public ICollection<string> Fields { get; } = new HashSet<string> {
 			"uid",
+			"email",
 			"first_name",
 			"last_name",
 			"pic_1"

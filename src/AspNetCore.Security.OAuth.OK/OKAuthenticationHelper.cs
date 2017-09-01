@@ -29,5 +29,10 @@ namespace AspNet.Security.OAuth.OK
 		/// Gets the pic_1 photo.
 		/// </summary>
 		public static string GetPhoto([NotNull] JObject user) => user.Value<string>("pic_1");
+
+		/// <summary>
+		/// Gets the first name associated with the logged in user.
+		/// </summary>
+		public static string GetEmail([NotNull] JObject user) => user.Value<string>("email");
 	}
 }
