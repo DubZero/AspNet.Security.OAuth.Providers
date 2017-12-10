@@ -12,10 +12,17 @@ AspNet.Security.OAuth.Providers
 
 **Adding social authentication to your application is a breeze** and just requires a few lines in your `Startup` class:
 
-    app.UseGitHubAuthentication(options => {
-        options.ClientId = "49e302895d8b09ea5656";
-        options.ClientSecret = "98f1bf028608901e9df91d64ee61536fe562064b";
-    });
+			var optionsOK = new OKAuthenticationOptions()
+			{
+				ClientId = "1234366448", // Example
+				ClientSecret = "8F04B86C9681B8418C3A6A0C", // Example
+				ApplicationKey = "ABAFEFNLEBRBABTBA", // Example
+			};
+
+			optionsOK.Scope.Add("VALUABLE_ACCESS");
+			optionsOK.Scope.Add("GET_EMAIL"); // Need email to support to get this Scope
+
+			app.UseOKAuthentication(optionsOK);
 
 See [https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/tree/dev/samples/Mvc.Client](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/tree/dev/samples/Mvc.Client) for a complete sample **using ASP.NET Core MVC and supporting multiple social providers**.
 
