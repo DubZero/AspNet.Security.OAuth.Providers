@@ -20,7 +20,6 @@ AspNet.Security.OAuth.Providers
 			};
 
 			optionsOK.Scope.Add("VALUABLE_ACCESS");
-			optionsOK.Scope.Add("GET_EMAIL"); // Need email to support to get this Scope
 
 			app.UseOKAuthentication(optionsOK);
 
